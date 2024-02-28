@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import CardMe from './components/Card'
 import './styles/Nav.css'
+
 
 
 
@@ -11,6 +13,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <CardMe/>
       <Footer/>
     </>
   )
