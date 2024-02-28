@@ -42,17 +42,23 @@
 
 .card{
   color: white;
+  left: 350px;
+  height: 500px;
+  margin-top: 70px;
   
 }
+
 .card-text{
   color: white;
+  padding: 50px;
 }
-
 
 #icon{
   width: 50px;
   text-align: center;
   /* max-height: 90px; */
   left: 700px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
