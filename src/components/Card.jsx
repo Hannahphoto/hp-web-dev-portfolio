@@ -1,4 +1,4 @@
-export default function CardMe() {
+export default function Card() {
     return (
         <>
             <div className="card mb-3" style={{width:" 840px"}}>

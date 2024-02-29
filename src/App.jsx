@@ -2,9 +2,9 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import CardMe from './components/Card'
-import CardPortfolio from './components/CardPortfolio'
+import CardPortfolio from './components/portfolioCards/CardPortfolio'
 import './styles/Nav.css'
-import '/styles/Portfolio.css'
+import './components/portfolioCards/Portfolio.css'
 
 
 
