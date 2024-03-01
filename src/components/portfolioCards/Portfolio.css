@@ -3,6 +3,11 @@
   background-color: rgb(0, 53, 63);
 }
 
+.container{
+  right: 100px;
+}
+
+
 .card{
   display: flex;
   flex-wrap: wrap;

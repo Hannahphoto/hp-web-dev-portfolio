@@ -62,3 +62,22 @@
   justify-content: center;
   align-items: center;
 }
+
+#LinkdIn{
+  width: 31.5px;
+  text-align: center;
+  left: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#photo{
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  left: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
