@@ -4,9 +4,13 @@
 }
 
 .container{
-  right: 100px;
+  margin-right: 1000px;
+  
 }
 
+.row{
+  left: 1200px;
+}
 
 .card{
   display: flex;
@@ -21,7 +25,8 @@
 
 .col-3{
   display: flex;
-  margin: 0px;
+  /* right: 700px;
+   */
 }
 
 
