@@ -17,14 +17,12 @@
 .col-4{
   display: flex;
 
-
-  
 }
 
 
-#img{
-    max-width: 400px;
-    max-height: 600px;
+#cardSize{
+    max-width: 273px;
+    max-height:400px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
