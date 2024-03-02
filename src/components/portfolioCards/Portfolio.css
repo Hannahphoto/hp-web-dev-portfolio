@@ -12,16 +12,12 @@ form{
 
 }
 
-.btn{
-  color: purple;
-}
-
-.card{
+/* .card{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   background-color: transparent;
-}
+} */
 
 .border-color{
   color: yellow;
@@ -33,6 +29,7 @@ form{
 }
 
 #cardSize{
+  position: relative;
     max-width: 249px;
     max-height:300px;
     display: flex;
@@ -40,8 +37,14 @@ form{
     flex-direction: row;
 }
 
+
+#cardSize:hover{
+  transform: scale(1.1);
+  background-color: rgba(8, 191, 236, 0.329); /* Semi-transparent blue overlay */
+}
+
 #emailHelp{
-  color: lightslategray;
+  color: rgb(188, 149, 246);
 }
 
 
