@@ -58,7 +58,7 @@
   width: 50px;
   text-align: center;
   /* max-height: 90px; */
-  left: 900px;
+  left: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,7 +67,7 @@
 #LinkdIn{
   width: 31.5px;
   text-align: center;
-  left: 1000px;
+  left: 900px;
   display: flex;
   justify-content: center;
   align-items: center;

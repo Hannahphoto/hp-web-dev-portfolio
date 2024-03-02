@@ -8,8 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // bring in the pages so router will show appropriate view/page
 import ErrorPage from './pages/ErrorPage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
-
 import PortfolioPage from './pages/PortfolioPage.jsx';
+import Contact from './pages/Contact.jsx';
 
 
 const router = createBrowserRouter([
@@ -23,8 +23,12 @@ const router = createBrowserRouter([
     element: <AboutPage />
   },
   {
-        path: '/portfolio',
-        element: <PortfolioPage/>,
+    path: '/portfolio',
+    element: <PortfolioPage/>,
+  },
+  {
+    path: '/contact',
+    element: <Contact/>
   }
 ]);
 
