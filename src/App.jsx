@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import CardMe from './components/Card'
 import CardPortfolio from './components/portfolioCards/CardPortfolio'
 import Contact from './components/Contact'
+import Resume from './components/Resume'
 import './styles/Nav.css'
 import './components/portfolioCards/Portfolio.css'
 
@@ -19,6 +20,7 @@ function App() {
       <CardMe/>
       <CardPortfolio/>
       <Contact/>
+      <Resume/>
       <Footer/>
     </>
   )
