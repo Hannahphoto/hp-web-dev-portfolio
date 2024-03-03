@@ -12,13 +12,6 @@ form{
 
 }
 
-/* .card{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background-color: transparent;
-} */
-
 .border-color{
   color: yellow;
 }
@@ -30,7 +23,7 @@ form{
 
 #cardSize{
   position: relative;
-    max-width: 249px;
+    max-width: 100%;
     max-height:300px;
     display: flex;
     flex-wrap: wrap;
@@ -38,10 +31,10 @@ form{
 }
 
 
-#cardSize:hover{
+.card-cardSize:hover{
   transform: scale(1.1);
-  background-color: rgba(8, 191, 236, 0.329); /* Semi-transparent blue overlay */
 }
+
 
 #emailHelp{
   color: rgb(188, 149, 246);

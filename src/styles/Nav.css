@@ -26,7 +26,10 @@
   padding-top: 40px;
 }
 
-/* this styles the footer */
+.col-1:hover{
+  color: rgb(188, 149, 246);
+  
+}
 
 .col{
   font-family: "Ubuntu", sans-serif;
