@@ -1,7 +1,7 @@
 export default function Card() {
     return (
         <>
-            <div className="card mb-3" style={{width:" 840px"}}>
+            <div className="card mb-3" style={{width:" 840px"}} id="aboutMe">
                 <div className="row g-0">
                     <div className="col-md-4">
                         <img src="/images/Self-Portrait_CropLoRes.jpg" className="img-fluid rounded-start" alt="self-portrait"></img>

@@ -12,6 +12,10 @@ form{
 
 }
 
+.form-control{
+  height: 200px;
+}
+
 .border-color{
   color: yellow;
 }
@@ -19,6 +23,10 @@ form{
 .col-4{
   display: flex;
 
+}
+
+#exampleInputEmail1{
+  height: 50px;
 }
 
 #cardSize{
@@ -39,5 +47,7 @@ form{
 #emailHelp{
   color: rgb(188, 149, 246);
 }
+
+
 
 

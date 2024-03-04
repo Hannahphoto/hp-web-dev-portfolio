@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 function Form() {
     const [email, setEmail] = useState('');
     const [textarea, setTextarea] = useState('');
+    const [errorMessage, setErrorMessage]= useState('');
 
     const handleInputChange = (event) =>{
         setEmail(event.target.value)
@@ -16,7 +17,18 @@ function Form() {
 
     const handleSubmit = (event)=> {
         event.preventDefault();
-    }
+
+        if(!handleInputChange(email)){
+            setErrorMessage('Email needs to be filled. ');
+            return;
+        }if(!handleChange(textarea)){
+            setErrorMessage('Textatrea needs to be filled');
+        }
+        setEmail('');
+        setTextarea('');
+        }
+    
+
     return (
         <>
             <form onSubmit={{handleSubmit}}>
@@ -32,8 +44,13 @@ function Form() {
 
                 <button type="submit" className="btn btn-secondary">Submit</button>
             </form>
+            {errorMessage && (
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
         </>
-    )
+    );
 }
 
 export default Form;

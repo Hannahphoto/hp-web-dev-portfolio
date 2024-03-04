@@ -4,7 +4,7 @@
 }
 
 h3{
-  margin-left: 700px;
+  margin-left: 800px;
  
 }
 
@@ -17,7 +17,7 @@ h4{
 p{
   color: white;
   margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 80px;
   margin-bottom: 10px;
 
 }
@@ -94,7 +94,7 @@ li{
   width: 30px;
   text-align: center;
   /* max-height: 90px; */
-  left: 800px;
+  left: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +103,7 @@ li{
 #LinkdIn{
   width: 31.5px;
   text-align: center;
-  left: 900px;
+  left: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,4 +131,8 @@ li{
 
 #link:hover{
   color: rgb(188, 149, 246);
+}
+
+#aboutMe{
+  left:575px;
 }
