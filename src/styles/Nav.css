@@ -4,29 +4,41 @@
 }
 
 h3{
-  margin-left: 20px;
+  margin-left: 700px;
  
 }
 
 h4{
   color: white;
-  margin-left: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 p{
   color: white;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
 
 }
 
 ul{
   color: white;
+  margin-left: 70px;
+  margin-bottom: 10px;
 }
 
 li{
-  margin-left: 50px;
+  margin-left: 100px;
+  color: white;
+  margin-bottom: 10px;
 }
+
+a{
+  margin: 0px;
+  padding: 0px;
+}
+
 .col-7{
   margin-left: 20px;
   color: white;
@@ -78,8 +90,14 @@ li{
 
 .card-text{
   color: white;
-  padding: 50px;
+  padding: 5px;
 }
+
+.resumeHeaders{
+  color:   rgb(188, 149, 246);
+  text-shadow: 0 0 20px rgb(20, 2, 45);
+}
+
 
 #icon{
   width: 30px;
@@ -108,4 +126,13 @@ li{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#dres{
+  color: rgb(224, 64, 208);
+}
+
+#link{
+  color: white;
+
 }
