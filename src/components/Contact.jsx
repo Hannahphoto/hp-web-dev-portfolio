@@ -1,8 +1,8 @@
-import { useState } from "react";
-import ReactDom from 'react-dom-client';
+// import { useState } from "react";
+// import ReactDom from 'react-dom-client';
 
 export default function Form() {
-    const [name, setName]
+    // const [name, setName]
 
     return (
         <>
@@ -23,5 +23,5 @@ export default function Form() {
     )
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Form/>);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<Form/>);
