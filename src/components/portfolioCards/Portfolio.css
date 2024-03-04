@@ -25,6 +25,11 @@ form{
 
 }
 
+.error-text{
+  color: white;
+  
+}
+
 #exampleInputEmail1{
   height: 50px;
 }

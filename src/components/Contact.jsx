@@ -18,10 +18,10 @@ function Form() {
     const handleSubmit = (event)=> {
         event.preventDefault();
 
-        if(!email.trim()){
+        if(!setEmail){
             setErrorMessage('Email needs to be filled. ');
             return;
-        }if(!textarea.trim()){
+        }if(!setTextarea){
             setErrorMessage('Textatrea needs to be filled');
             return;
         }
@@ -39,13 +39,13 @@ function Form() {
         <>
             <form onSubmit={{handleSubmit}}>
                 <div className="mb-3">
-                    <label form="exampleInputEmail1" className="form-label">Email address</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" value={email} onChange={handleInputChange}></input>
+                    <label htmlFor="validationDefault01" form="exampleInputEmail1" className="form-label">Email address</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" value={email} onChange={handleInputChange} required></input>
                     <div id="emailHelp" className="form-text">I will never share your email with anyone else.</div>
                 </div>
                 <div className="mb-3">
-                    <label form="exampleInputPassword1" className="form-label">Message</label>
-                    <textarea name="postContent" value={textarea} onChange={handleChange} className="form-control"></textarea>
+                    <label htmlFor="validationDefault02" form="exampleInputPassword1" className="form-label" required>Message</label>
+                    <textarea name="postContent" value={textarea} onChange={handleChange} className="form-control" id="validationDefault02"></textarea>
                 </div>
 
                 <button type="submit" className="btn btn-secondary">Submit</button>
