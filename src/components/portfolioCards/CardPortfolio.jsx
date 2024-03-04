@@ -59,8 +59,8 @@ export default function CardPortfolio() {
                 </div>
                 <div className="col-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "250px" }}>
-                        <Link onClick = {() => openInNewTab("https://text-editor-web-application-6i87.onrender.com/")}>
-                        <img src="/images/backend" className="card-cardSize" alt="image of note taker site" id="cardSize"></img>
+                        <Link onClick = {() => openInNewTab("https://hannahphoto.github.io/CalendarGetWorkDone-HP/")}>
+                        <img src="/images/work-day.png" className="card-cardSize" alt="image of work day schedular" id="cardSize"></img>
                         </Link>
                         <div className="card-cardSize-overlay bg-transparent" style={{ width: " 0px", height: "0px" }}>
                         </div>

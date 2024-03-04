@@ -18,12 +18,18 @@ function Form() {
     const handleSubmit = (event)=> {
         event.preventDefault();
 
-        if(!handleInputChange(email)){
+        if(!email.trim()){
             setErrorMessage('Email needs to be filled. ');
             return;
-        }if(!handleChange(textarea)){
+        }if(!textarea.trim()){
             setErrorMessage('Textatrea needs to be filled');
+            return;
         }
+
+        setErrorMessage('');
+
+        console.log('Form subitted', {email, textarea});
+
         setEmail('');
         setTextarea('');
         }
