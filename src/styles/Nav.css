@@ -13,11 +13,11 @@ h4{
   margin-left: 300px;
   margin-right: 80px;
 }
-
+/* 
 h5{
-  color: white;
+  padding-bottom: 0px;
 
-}
+} */
 
 h6{
   color: white;
@@ -75,7 +75,8 @@ li{
   height: 300px;
   margin-top: 70px;
   box-shadow: 0 0 20px rgb(20, 2, 45);
-  
+  margin-bottom: 50px;
+  font-size: large;
 }
 
 
