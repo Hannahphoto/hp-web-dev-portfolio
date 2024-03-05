@@ -18,9 +18,11 @@ export default function Footer() {
             <img className="col" src="/images/LI-In-Bug.png" alt="linked-in logo" id="LinkdIn"></img>
             </Link>
             </div>
-            {/* <div>
-            <img className="col" src="/images/dslr-camera.png" alt="camera icon" id="#photo"></img>
-            </div> */}
+            <div>
+            <Link onClick={() => openInNewTab("https://www.hannahcprice.com/")}>  
+            <img className="col" src="/images/dslr-camera.png" alt="camera icon" id="#icon3"></img>
+            </Link>
+            </div>
         </div>
     )
 }

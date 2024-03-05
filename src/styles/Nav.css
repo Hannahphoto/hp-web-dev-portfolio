@@ -4,32 +4,29 @@
 }
 
 h3{
-  margin-left: 800px;
+  margin-left: 775px;
  
 }
 
 h4{
   color: white;
-  margin-left: 80px;
+  margin-left: 300px;
   margin-right: 80px;
 }
 
-p{
+h5{
   color: white;
-  margin-left: 100px;
-  margin-right: 80px;
-  margin-bottom: 10px;
 
 }
 
-ul{
+h6{
   color: white;
-  margin-left: 70px;
-  margin-bottom: 10px;
+
 }
+
 
 li{
-  margin-left: 100px;
+  margin-left: 390px;
   color: white;
   margin-bottom: 10px;
 }
@@ -62,27 +59,25 @@ li{
   font-family: "Ubuntu", sans-serif;
   position: fixed;
   bottom: 0;
-  margin-bottom: 20px;
-  left: 0;
+  margin-bottom: 15px;
+  left: 100px;
   background-color:rgb(0, 53, 63);
   font-weight: 200px;
   color: white;
+  width: 35px;
+
 
 }
 
 .card{
   color: white;
-  left: 350px;
+  left: 400px;
   height: 500px;
-  margin-top: 70px;
+  margin-top: 60px;
   box-shadow: 0 0 20px rgb(20, 2, 45);
   
 }
 
-.card-text{
-  color: white;
-  padding: 5px;
-}
 
 .resumeHeaders{
   color:   rgb(188, 149, 246);
@@ -92,32 +87,22 @@ li{
 
 #icon{
   width: 30px;
-  text-align: center;
-  /* max-height: 90px; */
-  left: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  left: 245px;
+  padding-bottom: 3px;
+
 }
 
 #LinkdIn{
   width: 31.5px;
   text-align: center;
-  left: 1000px;
+  left: 175px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 3px;
 }
 
-#photo{
-  width: 10px;
-  height: 10px;
-  text-align: center;
-  left: 1000px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 #dres{
   color: rgb(224, 64, 208);
@@ -134,5 +119,5 @@ li{
 }
 
 #aboutMe{
-  left:575px;
+  left:550px;
 }

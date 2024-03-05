@@ -12,15 +12,26 @@ form{
 
 }
 
+div{
+  margin-top: 10px;
+  color: white;
+
+}
+
+p{
+  color: white;
+  margin-left: 400px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+
+}
+
 .form-control{
   height: 200px;
 }
 
-.border-color{
-  color: yellow;
-}
 
-.col-4{
+.col-3{
   display: flex;
 
 }
@@ -28,6 +39,16 @@ form{
 .error-text{
   color: white;
   
+}
+
+.card-body{
+  height: 50px;
+}
+
+.card-link{
+  margin: 0px;
+  padding: 0px;
+
 }
 
 #exampleInputEmail1{
