@@ -1,102 +1,104 @@
-*{
+* {
   font-family: "Ubuntu", sans-serif;
   background-color: rgb(0, 53, 63);
 }
 
-h3{
-  margin-left: 775px;
- 
+
+/* download resume */
+h3 {
+  margin-left: 50%;
+
 }
 
-h4{
+/* resume headers */
+h4 {
   color: white;
-  margin-left: 300px;
-  margin-right: 80px;
-}
-/* 
-h5{
-  padding-bottom: 0px;
-
-} */
-
-h6{
-  color: white;
+  margin-left: 18%;
+  margin-right: 5%;
 
 }
 
-
-li{
-  margin-left: 390px;
+/* skills bullet points */
+li {
+  margin-left: 21%;
   color: white;
   margin-bottom: 10px;
 }
 
-.col-7{
+.container{
+  display: flex;
+  margin-right: 0px;
+  padding-right: 0px;
+  
+}
+
+/* name top left */
+.col-7 {
   margin-left: 30px;
   color: white;
-  background-color:rgb(0, 53, 63);
-  font-size: 50px;
+  background-color: rgb(0, 53, 63);
+  font-size: 3vw;
   padding: 10px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-style: normal;
-  }
+}
 
 
-
-.col-1{
+/* nav bar */
+.col-1 {
+  justify-content: space-between;
   color: white;
   background-color: rgb(0, 53, 63);
   font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
   font-size: large;
   padding: 10px;
   padding-top: 40px;
 }
 
-
-.col{
+/* footer */
+.col {
   font-family: "Ubuntu", sans-serif;
   position: fixed;
   bottom: 0;
   margin-bottom: 15px;
-  left: 100px;
-  background-color:rgb(0, 53, 63);
+  left: 5.3%;
+  background-color: rgb(0, 53, 63);
   font-weight: 200px;
   color: white;
   width: 35px;
-
-
 }
 
-.card{
+/* portfolio cards and about me card position */
+.card {
+  display: flex;
   color: white;
-  left: 400px;
-  height: 300px;
+  left: 90%;
   margin-top: 70px;
   box-shadow: 0 0 20px rgb(20, 2, 45);
   margin-bottom: 50px;
   font-size: large;
 }
 
-
-.resumeHeaders{
-  color:   rgb(188, 149, 246);
+/* color for resume headers */
+.resumeHeaders {
+  color: rgb(188, 149, 246);
   text-shadow: 0 0 20px rgb(20, 2, 45);
 }
 
-
-#icon{
+/* github footer images*/
+#icon {
   width: 30px;
-  left: 245px;
+  left: 13%;
   padding-bottom: 3px;
 
 }
 
-#LinkdIn{
+/* footer images*/
+#LinkdIn {
   width: 31.5px;
   text-align: center;
-  left: 175px;
+  left: 9.4%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,21 +106,103 @@ li{
   padding-bottom: 3px;
 }
 
-
-#dres{
+/* color of "download resume" */
+#dres {
   color: rgb(224, 64, 208);
 }
 
-#link{
+/* navbar text*/
+#link {
   color: white;
   text-decoration: none;
 
 }
 
-#link:hover{
+/* navbar hover */
+#link:hover {
   color: rgb(188, 149, 246);
 }
 
-#aboutMe{
-  left:550px;
+/* about me card - spefic position because does want other card do */
+#aboutMe {
+  left: 30%;
+
+}
+
+@media sreen and (max-width: 1350px) {
+  h4 {
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+
+  .col-1 {
+    left: 5%;
+  }
+
+}
+
+@media screen and (max-width: 935px) {
+  .col {
+    font-family: "Ubuntu", sans-serif;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 15px;
+    left: 5.3%;
+    background-color: rgb(0, 53, 63);
+    width: 25px;
+  }
+  /* github footer images*/
+  #icon {
+    width: 20px;
+    left: 13%;
+    padding-bottom: 3px;
+
+  }
+
+  /* footer images*/
+  #LinkdIn {
+    width: 20px;
+    text-align: center;
+    left: 9.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 3px;
+  }
+
+}
+
+@media sreen and (max-width: 662px) {
+  .col {
+    font-family: "Ubuntu", sans-serif;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 15px;
+    left: 2%;
+    background-color: rgb(0, 53, 63);
+    width: 25px;
+  
+  }
+  /* github footer images*/
+  #icon {
+    width: 20px;
+    left: 13%;
+    padding-bottom: 3px;
+
+  }
+
+  /* footer images*/
+  #LinkdIn {
+    width: 20px;
+    text-align: center;
+    left: 9.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+  }
+
 }
