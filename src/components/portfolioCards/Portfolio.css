@@ -13,7 +13,7 @@ form{
 
 /* brought page down a bit */
 div{
-  margin-top: 10px;
+  margin-top: 0px;
   color: white;
 }
 
@@ -28,6 +28,19 @@ p{
   margin-right: 10%;
 
 }
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* width: 900px; */
+  padding: 50px;
+  
+
+}
+
+
+
 
 /* heigh of message box */
 .form-control{
@@ -72,7 +85,7 @@ p{
 /* image size */
 #cardSize{
   position: relative;
-  max-width: 100%;*/
+  max-width: 100%;
   margin: 0px;
 }
 

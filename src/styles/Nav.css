@@ -25,12 +25,6 @@ li {
   margin-bottom: 10px;
 }
 
-.container{
-  display: flex;
-  margin-right: 0px;
-  padding-right: 0px;
-  
-}
 
 /* name top left */
 .col-7 {
@@ -72,12 +66,17 @@ li {
 /* portfolio cards and about me card position */
 .card {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   color: white;
-  left: 90%;
+  left: 200%;
   margin-top: 70px;
   box-shadow: 0 0 20px rgb(20, 2, 45);
   margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
   font-size: large;
+  /* right: 50%; */
 }
 
 /* color for resume headers */
@@ -140,6 +139,20 @@ li {
     font-size: 15px;
     width: fit-content;
   }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    left: 50%;
+    margin-top: 70px;
+    box-shadow: 0 0 20px rgb(20, 2, 45);
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: large;
+    /* right: 50%; */
+  }
 
 }
 
@@ -176,6 +189,20 @@ li {
   .col-1 {
     font-size: 10px;
     width: fit-content;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    left: 50%;
+    margin-top: 70px;
+    box-shadow: 0 0 20px rgb(20, 2, 45);
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: large;
+    /* right: 50%; */
   }
 
 }
@@ -226,6 +253,22 @@ li {
     font-weight: 700;
     margin-right: 0px;
     width: fit-content;
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    /* left: 100%; */
+    margin-top: 70px;
+    box-shadow: 0 0 20px rgb(20, 2, 45);
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* font-size: large; */
+    /* right: 50%; */
+    left: 10%;
   }
 
 }

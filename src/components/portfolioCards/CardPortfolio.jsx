@@ -9,8 +9,9 @@ export default function CardPortfolio() {
 
     return (
         <>
-            <div className="row">
-                <div className="col-3">
+        <div className='container'>
+            <div className="">
+                <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
                         <h5 className="card-title" style={{ color: "white" }}>Card Game: Backend - Logic</h5>
                         <Link onClick={() => openInNewTab("https://gods-and-beasts-game-15c8c3fec868.herokuapp.com/")}>
@@ -21,7 +22,7 @@ export default function CardPortfolio() {
                     </div>
                     </div>
                 </div>
-                <div className="col-3">
+                <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
                         <h5 className="card-title" style={{ color: "white" }}>Movie Tracks: Backend - API & Redesign</h5>
                         <Link onClick={() => openInNewTab("https://hannahphoto.github.io/movie-track/")}>
@@ -32,7 +33,7 @@ export default function CardPortfolio() {
                     </div>
                     </div>
                 </div>
-                <div className="col-3">
+                <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
                         <h5 className="card-title" style={{ color: "white" }}>PWA</h5>
                         <Link onClick={() => openInNewTab("https://text-editor-web-application-6i87.onrender.com/")}>
@@ -44,8 +45,8 @@ export default function CardPortfolio() {
                     </div>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-3">
+            <div className="">
+                <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
                         <h5 className="card-title" style={{ color: "white" }}>Weather Dashboard: Server Side api</h5>
                         <Link onClick={() => openInNewTab("https://hannahphoto.github.io/WhatsTheWeatherLike/")}>
@@ -56,7 +57,7 @@ export default function CardPortfolio() {
                     </div>
                     </div>
                 </div>
-                <div className="col-3">
+                <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
                         <h5 className="card-title" style={{ color: "white" }}>Note Taker: Express JS</h5>
                         <Link onClick={() => openInNewTab("https://getnotes-app-181ae37a2c03.herokuapp.com/notes")}>
@@ -67,7 +68,7 @@ export default function CardPortfolio() {
                     </div>
                     </div>
                 </div>
-                <div className="col-3">
+                <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
                         <h5 className="card-title" style={{ color: "white" }}>Work Schedular: Third Party API</h5>
                         <Link onClick={() => openInNewTab("https://hannahphoto.github.io/CalendarGetWorkDone-HP/")}>
@@ -79,6 +80,13 @@ export default function CardPortfolio() {
                     </div>
                 </div>
             </div>
+         </div>
         </>
     )
 }
+
+
+
+
+{/* <div className="row">
+ <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">  */}
