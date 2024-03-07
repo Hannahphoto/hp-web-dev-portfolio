@@ -80,6 +80,23 @@ li {
   /* right: 50%; */
 }
 
+.aboutme-image{
+  border-radius: 5px;
+  max-width: 350px;
+  margin: 20px;
+  margin-left: 35%;
+  margin-right: 40px;
+ 
+
+}
+
+.aboutme-text{
+  position: relative;
+  max-width: 700px;
+  left: 35%;
+  right: 40px;
+}
+
 /* color for resume headers */
 .resumeHeaders {
   color: rgb(188, 149, 246);
@@ -126,6 +143,7 @@ li {
 /* about me card - spefic position because does want other card do */
 #aboutMe {
   left: 35%;
+  right: 35%;
 
 }
 
@@ -155,9 +173,18 @@ li {
     /* right: 50%; */
   }
 
-  #aboutMe {
-    left: 20%;
+  .aboutme-image{
+    max-width: 350px;
+    margin: 20px;
+    margin-left: 25%;
+    margin-right: 10%;
   
+  }
+  .aboutme-text{
+    position: relative;
+    max-width: 250px;
+    left: 25%;
+    right: 5px;
   }
 
 }
@@ -210,9 +237,19 @@ li {
     font-size: large;
     /* right: 50%; */
   }
-  #aboutMe {
-    left: 15%;
+
+  .aboutme-image{
+    max-width: 350px;
+    margin: 20px;
+    margin-left: 25%;
+    margin-right: 10%;
   
+  }
+  .aboutme-text{
+    position: relative;
+    max-width: 250px;
+    left: 25%;
+    right: 5px;
   }
 }
 
@@ -280,8 +317,36 @@ li {
     left: 10%;
   }
 
-  #aboutMe {
-    left: 0%;
+  .aboutme-image{
+    max-width: 350px;
+    margin: 5px;
+    margin-left: 25%;
+    margin-right: 10%;
   
   }
+  
+  .aboutme-text{
+    position: relative;
+    max-width: 250px;
+    left: 25%;
+    right: 5px;
+  }
+}
+
+@media sreen and (max-width: 390px){
+  .aboutme-image{
+    max-width: 350px;
+    margin: 5px;
+    margin-left: 25%;
+    margin-right: 10%;
+  
+  }
+  
+  .aboutme-text{
+    position: relative;
+    max-width: 250px;
+    left: 25%;
+    right: 5px;
+  }
+
 }
