@@ -4,7 +4,7 @@ export default function NavBar({ }) {
     return (
         <>
        
-            <nav className="row">
+            <nav className="row navbar">
             
              <div className="col-7">Hannah Price</div>
          
