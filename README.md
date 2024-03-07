@@ -43,5 +43,5 @@ https://github.com/Hannahphoto/hp-web-dev-portfolio
 https://hprice-web-dev-portfolio.netlify.app/about
 
 <div align="center">
-    <img src="./images/portfio.png" href = "screenshot of portfiolio website." />
+    <img src="./public/images/portfio.png" href = "screenshot of portfiolio website." />
     </div>
