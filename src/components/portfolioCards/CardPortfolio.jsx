@@ -10,7 +10,7 @@ export default function CardPortfolio() {
     return (
         <>
         <div className='container'>
-            <div className="">
+            <div className="card-group">
                 <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
                         <h5 className="card-title" style={{ color: "white" }}>Card Game: Backend - Logic</h5>
@@ -45,7 +45,7 @@ export default function CardPortfolio() {
                     </div>
                 </div>
             </div>
-            <div className="">
+            <div className="card-group">
                 <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
                         <h5 className="card-title" style={{ color: "white" }}>Weather Dashboard: Server Side api</h5>
