@@ -40,7 +40,7 @@ Made a huge mistake forgetting to design for moibile first. Will redo for job se
 https://github.com/Hannahphoto/hp-web-dev-portfolio
 
 # Deployed Site
-https://hprice-web-dev-portfolio.netlify.app/about
+https://hprice-web-dev-portfolio.netlify.app
 
 <div align="center">
     <img src="./public/images/portfio.png" href = "screenshot of portfiolio website." />
