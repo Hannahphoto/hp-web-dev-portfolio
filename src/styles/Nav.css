@@ -25,17 +25,18 @@ li {
   margin-bottom: 10px;
 }
 
-
 /* name top left */
-.col-7 {
+.navbar-brand{
   margin-left: 30px;
-  color: white;
-  background-color: rgb(0, 53, 63);
-  font-size: 3vw;
   padding: 10px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-style: normal;
+  color: antiquewhite;
+}
+
+.col-7{
+  font-size: 3vw;
+  color: white;
 }
 
 
