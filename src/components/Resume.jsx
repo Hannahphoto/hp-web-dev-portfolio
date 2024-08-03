@@ -8,7 +8,7 @@ export default function Resume(){
 
     return(
         <>  
-            <Link onClick={() => openInNewTab("https://drive.google.com/file/d/1k7UbJejatBJtjJ8C9C3LQdVh6MyeroU7/view")}>
+            <Link onClick={() => openInNewTab("https://drive.google.com/file/d/1Cjc0s21fE5BPNH5c89EueOwkjRMsYLVG/view?usp=sharing")}>
             <h3 className='resumeHeaders' id="dres">
                 Download Resume
             </h3></Link>

@@ -7,6 +7,7 @@ export default function NavBar({ }) {
             <nav className="row navbar">
             
              <div className="col-7">Hannah Price</div>
+                    
          
                     <div className="col-1 "><Link id="link" to="/about">About Me</Link></div>
                     <div className="col-1 "><Link id="link" to="/portfolio">Portfolio</Link></div>

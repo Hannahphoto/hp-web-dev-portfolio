@@ -13,12 +13,12 @@ export default function CardPortfolio() {
             <div className="card-group">
                 <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
-                        <h5 className="card-title" style={{ color: "white" }}>Card Game: Backend - Logic</h5>
-                        <Link onClick={() => openInNewTab("https://gods-and-beasts-game-15c8c3fec868.herokuapp.com/")}>
-                            <img src="/images/gods-beasts.png" className="card-cardSize" alt="image of game" id="cardSize"></img>
+                        <h5 className="card-title" style={{ color: "white" }}>Pet Game: Frontend</h5>
+                        <Link onClick={() => openInNewTab("https://pixel-paws-n6iq.onrender.com/")}>
+                            <img src="/images/pixel-pals.png" className="card-cardSize" alt="image of game" id="cardSize"></img>
                         </Link>
                         <div className="card-body">
-                        <Link onClick={()=> openInNewTab("https://github.com/ashleyh5440/gods-beasts-game")} className="card-link">Git Hub</Link>
+                        <Link onClick={()=> openInNewTab("https://github.com/mathilde-01/pixel-paws")} className="card-link">Git Hub</Link>
                     </div>
                     </div>
                 </div>
@@ -35,12 +35,12 @@ export default function CardPortfolio() {
                 </div>
                 <div className="col-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="card text-bg-transparent border-light" style={{ width: "230px" }}>
-                        <h5 className="card-title" style={{ color: "white" }}>PWA</h5>
-                        <Link onClick={() => openInNewTab("https://text-editor-web-application-6i87.onrender.com/")}>
-                            <img src="/images/PWA-textEditor.png" className="card-cardSize" alt="image of PWA app" id="cardSize"></img>
+                        <h5 className="card-title" style={{ color: "white" }}>Card Game: Backend - Logic</h5>
+                        <Link onClick={() => openInNewTab("https://gods-and-beasts-game-15c8c3fec868.herokuapp.com/")}>
+                            <img src="/images/gods-beasts.png" className="card-cardSize" alt="image of game" id="cardSize"></img>
                         </Link>
                         <div className="card-body">
-                        <Link onClick={()=> openInNewTab("https://github.com/Hannahphoto/pwa---textEditor")} className="card-link">Git Hub</Link>
+                        <Link onClick={()=> openInNewTab("https://github.com/ashleyh5440/gods-beasts-game")} className="card-link">Git Hub</Link>
                     </div>
                     </div>
                 </div>
