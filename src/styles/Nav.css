@@ -3,10 +3,6 @@
   background-color: rgb(0, 53, 63);
 }
 
-/* button{
-  color: aliceblue;
-} */
-
 /* download resume */
 h3 {
   margin-left: 50%;
@@ -34,10 +30,6 @@ ul{
   padding: 0px;
 }
 
- .navbar-nav{
-  margin-right: 10px; 
-  padding: 0px;
-}
 
 /* name top left */
 .navbar-brand{
@@ -56,14 +48,11 @@ ul{
 
 /* nav bar */
 .col-1 {
-  justify-content: space-between;
   color: white;
   background-color: rgb(0, 53, 63);
   font-family: "Ubuntu", sans-serif;
-  /* font-size: 20px; */
-  /* padding: 10px;
-  padding-top: 40px; */
-  /* left: 50%; */
+  margin-right: -3%;
+  font-size: 115%;
 }
 
 /* footer */
